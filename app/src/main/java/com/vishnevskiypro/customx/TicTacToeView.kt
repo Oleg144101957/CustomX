@@ -191,7 +191,7 @@ class TicTacToeView(
         const val PLAYER2_DEFAULT_COLOR = Color.RED
         const val GRID_COLOR = Color.GRAY
 
-        const val DESIRED_CELL_SIZE = 50f
+        const val DESIRED_CELL_SIZE = 50F
     }
 
 }
