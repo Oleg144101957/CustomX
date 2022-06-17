@@ -151,13 +151,14 @@ class TicTacToeView(
         val yEnd = fieldRect.bottom
 
         for (i in 0..field.columns){
-            val x = fieldRect.left + cellSize
+            val x = fieldRect.left + cellSize * i
             canvas.drawLine(x, yStart, x, yEnd, gridPaint)
         }
 
     }
 
     private fun drawCells(canvas: Canvas){
+
 
     }
 
